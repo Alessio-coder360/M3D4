@@ -1,0 +1,709 @@
+body{
+   background-color:rgba(0, 0, 0, 0.921)!important
+}
+
+
+
+/* 
+
+---------------------HEADER--------------------- */
+
+
+/* -----------------NAV-------------------- */
+
+
+.topbar {
+
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+
+
+
+}
+
+
+
+
+.sfondoNav {
+
+background-color: rgb(21, 21, 21);
+
+}
+
+
+.logo {
+
+ width: 100px;
+
+}
+
+
+.Menu-nav .nav-item .nav-link {
+   font-size: 14px!important
+ }
+
+
+.text-white {
+  opacity: 0.7;
+
+}
+
+
+.text-white:hover {
+
+   opacity: 1;
+   transition: 0.2s;
+
+}
+
+
+
+.pulsante-nav{ background-color: red!important;
+
+}
+
+
+
+
+
+/*  DROPDOWN A DESTRA PROFILI E ICONE N.B LA CLASSE BOOTSTRAP TEXT-WITHE USATO PER TUTTO GLI ELEMENTI DEL  MENU NAV, E MENU GENRES */
+
+
+.ricerca {
+
+   color: white;
+   display: flex;
+   align-items: center;
+   margin-left: auto;
+   margin-right: 25px;
+   gap: 20px;
+
+}
+
+
+.ricerca > i {
+   color: white;
+   font-size: 17px;
+   opacity: 0.7;
+ 
+
+}
+
+
+.ricerca > i:hover {
+opacity: 1;
+   
+   cursor: pointer;
+}
+
+
+
+
+.dropdown.list-unstyled > a >span {
+   font-size: 13px;
+   cursor: default;
+   
+}
+
+
+.ricerca > p {
+ font-size: 13px;
+   cursor: pointer;
+   
+}
+
+.dropdown-menu.bg-black.p-1 > li > img {
+   width: 60px;
+   height: 60px;
+   object-fit: cover;
+
+}
+
+
+.dropdown-menu.bg-black.p-1 > li {
+   display: flex;
+   align-items: center;
+   padding:17px;
+   transition: transform 0.2s ease; 
+   opacity: 0.7;
+}
+
+.dropdown-menu.bg-black.p-1 > li:hover {
+   transform: scale(1.2);
+   opacity: 1;
+}
+
+
+
+.dropdown-menu.bg-black.p-1 > a > li img{
+   width: 60px;
+   height: 60px;
+   object-fit: cover;
+}
+
+
+
+
+.dropdown-menu.bg-black.p-1{
+   border: rgb(103, 1, 1) 3px solid;
+
+}
+
+
+
+.parag {
+
+   display: flex;
+   align-items: center;
+   margin: auto;
+   opacity: 0.7;
+
+}
+
+
+
+
+.profilo {
+
+   height: 35px;
+   width: 35px;
+
+}
+
+
+
+.text-white{
+   opacity: 0.7;
+  
+ }
+ 
+ .text-white:hover{
+   opacity: 1;
+ }
+
+
+
+ .icone i{
+   color: white;
+   border: solid white 1px;
+   padding: 6px;
+   font-size: 15px;}
+
+.i-2{
+   opacity: 0.7!important;
+}
+
+.i-2:hover{
+   opacity: 1!important;
+}
+
+.i-1{
+   opacity: 0.7!important;
+}
+
+.i-1:hover{
+   opacity: 1!important;
+}
+
+
+
+.dropdown-center.dropdown-toggle {
+   font-size: 15px !important;  
+   background-color: transparent;
+ }
+
+
+
+ .dropdown-menu {
+   font-size: 15px !important; 
+ }
+ 
+ .btn{
+   border-radius: 0px!important;
+   opacity: 0.7!important;
+ }
+
+ .btn{
+  opacity: 1;
+ }
+
+
+
+
+
+/* 
+----------------------MAIN--------------------------------- */
+
+/* MENU FILM GENERI:  */
+
+
+
+
+ .Menu-Film{
+   background-color: rgb(90, 14, 5) !important;
+   opacity: 1!important;
+  
+ }
+
+ 
+ .Menu-Film:hover{
+   background-color:  rgb(90, 14, 5) !important;
+   opacity: 1!important;
+  
+ }
+
+
+
+
+ .Genres {
+   position: absolute; 
+   z-index: 1050; 
+   background-color: rgba(0, 0, 0, 0.95); 
+   min-width: 200px;
+   border: none;
+   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3); 
+   display: none; 
+ }
+ 
+ 
+ .Genres.show {
+   display: block; 
+ }
+ 
+ 
+ .img-fluid, .Cinema, .block-riga {
+   position: relative;
+   z-index: 1;
+ }
+ 
+
+
+.titolo:hover{
+   color:white;
+}
+
+ .titolo:hover h5{
+   color: white!important;
+   opacity: 1!important;
+
+}
+
+
+
+/* 
+ACCORCIA TESTO CATEGORIA FILM PER BAMBINI E FAMIGLIE  */
+
+.Long {
+   display: block;             
+   white-space: nowrap;        
+   overflow: hidden;           
+   text-overflow: ellipsis;   
+ }
+
+
+
+ .Long:hover {
+   white-space: normal;       
+   overflow: visible;          
+   text-overflow: clip;        
+ }
+
+
+
+
+ .colonna_sx h2{
+   color: white;
+
+
+
+
+}
+
+.Genres{
+   background-color: rgba(77, 2, 2, 0.874)!important;
+}
+
+.Genres > ul >li >a{
+   font-size: 13px;
+   padding-inline: 8px;
+}
+
+
+
+
+/* TITOLI IMMAGINI  */
+
+.titolo {
+   color: white !important; 
+   opacity: 1 !important;  
+ 
+}
+
+.titolo:hover {
+   color: white !important; 
+   opacity: 1 !important;  
+}
+
+
+
+
+
+
+
+
+
+/* 
+---------------MEDIA QUERY----------------- */
+
+
+
+
+
+
+
+
+/* MEDI QUERTY TABLET E IPAD :  */
+
+@media (max-width: 992px) {
+   .navbar {
+       flex-direction: column;
+       align-items: flex-start;
+       position: relative;
+   }
+
+   .navbar .logo {
+       order: 0;
+       width: 90%;
+       text-align: left;
+       margin-bottom: 10px;
+   }
+
+   .navbar-toggler {
+       order: 1;
+       margin-right: auto;
+       margin-top: 10px;
+   }
+
+   .navbar-collapse {
+       width: 100%;
+       margin-top: 10px;
+       position: absolute;
+       top: 100%;
+       left: 0;
+   }
+
+   .navbar-nav {
+       display: flex;
+       flex-direction: column; 
+       align-items: flex-start;
+       margin-left: 10px;
+       width: 100%;
+       z-index: 10!important;
+       background-color: black!important;
+   }
+
+   
+   .Ipad{
+      margin-left: 20px!important;
+   }
+
+   .navbar-nav .nav-item {
+       font-size: 15px;
+   }
+
+   .container.flex-row.px-1.mt-5 {
+       z-index: 8;
+   }
+
+   .Testo-small {
+       text-align: left !important;
+   }
+}
+
+
+
+
+
+/* SMARTHPHONE MEDIA QUERY */
+
+
+@media (max-width: 575px) {
+   .ricerca {
+       margin-top: 20px;
+   }
+}
+
+
+@media (max-width: 575px)  {
+ 
+   .navbar {
+     flex-direction: column;
+     align-items: flex-start; 
+     position: relative; 
+   }
+
+   .pulsante-nav{ margin-left: 15px!important;
+
+   }
+
+ 
+  .Genres{
+   margin: 0px!important;
+   padding: 0px!important;
+   position: relative; 
+   z-index: 10;
+  }
+ 
+   li > a > span{
+      opacity: 0;
+   
+   }
+
+   .ricerca {
+      margin-top: 20px;
+  }
+   
+   
+   .navbar .logo {
+     order: 0; 
+     width: 90%; 
+     text-align: left; 
+     margin-bottom: 10px; 
+   }
+ 
+   
+   .navbar-toggler {
+     order: 1; 
+     margin-right: auto;
+     margin-top: 10px; 
+   }
+ 
+   .navbar-collapse {
+     width: 100%;
+     margin-top: 10px; 
+     position: absolute;
+     top: 100%; 
+     left: 0;
+     
+   }
+ 
+   .navbar-nav {
+     display: flex;
+     flex-direction: column; 
+     align-items: flex-start; 
+     margin-left: 10px;
+     width: 100%;
+    
+     background-color: black!important;
+     position: relative;
+   z-index: 15!important
+   }
+ 
+   .navbar-nav .nav-item {
+      font-size: 15px;
+   
+   }
+
+   .navbar-collapse.show {
+      z-index: 15; 
+    }
+    
+
+   
+   .container.flex-row.px-1.mt-5{
+      z-index: 8;
+   }
+
+   .Testo-small {
+      text-align: left !important;
+      border: none;
+ }
+
+}
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* SEZIONE IMMAGINI FILM E CAROSELLO: */
+
+
+/*  
+CREAZIONE CAROSELLO:  */
+
+.img-fluid {
+   overflow: hidden;
+   width: auto;
+   object-fit: cover;
+   transition: transform 0.3s ease; 
+   border-radius: 5%;
+}
+
+
+.block-riga {
+   white-space: nowrap;
+   padding: 20px 0;
+   position: relative;
+   overflow: hidden; 
+}
+
+.Film {
+   min-width: 300px;
+   margin-right: 10px;
+   transition: transform 0.3s;
+   display: flex;
+   flex-direction: column;
+   margin-right: 10px;
+   position: relative;
+}
+
+.Film:first-child img:hover {
+   transform: scale(1.1) scaleY(1.0) translateX(22px); 
+   transform-origin: center center;
+   z-index: 2; 
+}
+
+.Film:not(:first-child) img:hover {
+   transform: scale(1.2);
+   z-index: 2; 
+}
+
+
+.Cinema {
+   display: flex;
+   transition: transform 0.5s ease;
+}
+
+
+
+
+
+
+/* BOTTONI MAGICI PER IL CAROSELLO */
+
+.magic-button {
+   position: absolute;
+   top: 50%;
+   transform: translateY(-50%)translateX(2px);
+   background:rgba(128, 128, 128, 0.514);
+   color: rgba(255, 255, 255, 0.949);
+   border: none;
+   padding: 20px 10px;
+   cursor: pointer;
+   z-index: 2;
+   transition: opacity 0.3s;
+   opacity: 0;
+   
+}
+
+.block-riga:hover .magic-button {
+
+   opacity: 1;  
+         
+}
+
+
+.movie-row:hover .navigation-button {
+   opacity: 1;
+}
+
+.magic-button.bottone-back i {
+
+  font-size: 30px;
+background-color: transparent;
+}
+
+.magic-button.bottone-go i {
+
+  font-size: 30px;
+  background-color: transparent;
+ }
+
+
+ .magic-button:hover{
+   opacity: 1; 
+
+ }
+
+.bottone-go{
+   left: 0;
+}
+
+.bottone-back {
+   right: 0;
+   
+}
+
+
+
+/* FOOTER: */
+
+
+
+
+
+.d-flex.mb-2 i{
+
+   font-size: 20px;
+   color: rgba(255, 255, 255, 0.367);
+}
+
+
+.menu-f a{
+   text-decoration: none;
+   color: rgba(255, 255, 255, 0.367); 
+   font-size: 13px;
+
+}
+
+
+.nav .nav-link {
+   font-size: 12px;
+   color: rgba(255, 255, 255, 0.367);
+}
+
+.row > div > h6 {
+   border: rgba(255, 255, 255, 0.367) 1px solid;
+   display: inline-block;
+   color: rgba(255, 255, 255, 0.367);
+   padding: 5px;
+   font-size: 12px;
+
+}
+
+.row > div > p{
+   color: rgba(255, 255, 255, 0.367);
+   font-size: 12px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,269 @@
+.form{
+    background-color: black!important;
+}
+
+.Login{
+    color: white;
+    border-color: white;
+    border-radius: 20px;
+    background-color: red;
+    transform: 0.2s ease; 
+    opacity: 0.8;
+}
+
+.Login:hover{
+    color: white;
+    border-color: white;
+    border-radius: 20px;
+    background-color: red;
+    opacity: 1;
+}
+
+body {
+    background-image: url('https://www.punto-informatico.it/app/uploads/2022/09/netflix-stock-2-2120x848.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    margin: 0px;
+}
+
+
+.immagine{
+
+position: relative;
+}
+
+.immagine img{
+    width: 200px;
+    position: absolute;
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, 129%); 
+    width: 200px; 
+    z-index: 1;
+  
+}
+
+
+
+body {
+    margin: 0;
+    overflow: hidden; 
+}
+
+.popcorn-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    pointer-events: none; 
+}
+
+.popcorn {
+    position: absolute;
+    top: -50px; 
+    left: 0;
+    animation: fall infinite; 
+}
+
+.popcorn img {
+    width: 30px; 
+    height: auto;
+}
+    
+@keyframes fall {
+    0% {
+        transform: translateY(0);
+    }
+    100% {
+        transform: translateY(110vh); 
+    }
+}
+
+
+.popcorn i {
+    font-size: 2rem; 
+    color: #f8c471; 
+}
+
+
+
+
+
+
+
+
+
+
+/* 
+MEDIA QUERY---- 992 */
+
+
+
+
+@media (max-width: 992px) {
+   
+    body {
+        background-image: url('https://c0.wallpaperflare.com/preview/993/558/358/screen-netflix-film-night-movie-night.jpg');
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+        margin: 0;
+        overflow: hidden; 
+    }
+
+    .immagine {
+        position: relative;
+    }
+
+    .immagine img {
+        width: 150px; 
+        position: absolute;
+        top: 20%; 
+        left: 50%;
+        transform: translateX(-50%);
+        z-index: 1;
+    }
+
+    .popcorn-container {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vh;
+        pointer-events: none;
+    }
+
+    .popcorn {
+        position: absolute;
+        top: -50px;
+        left: 0;
+        animation: fall infinite;
+    }
+
+    .popcorn img {
+        width: 30px;
+        height: auto;
+    }
+
+    @keyframes fall {
+        0% {
+            transform: translateY(0);
+        }
+        100% {
+            transform: translateY(110vh);
+        }
+    }
+
+    .popcorn i {
+        font-size: 2rem;
+        color: #f8c471;
+    }
+
+ 
+    .form {
+        background-color: black !important;
+    }
+
+    .Login {
+        color: white;
+        border-color: white;
+        border-radius: 20px;
+        background-color: red;
+        transform: 0.2s ease;
+        opacity: 0.8;
+    }
+
+    .Login:hover {
+        color: white;
+        border-color: white;
+        border-radius: 20px;
+        background-color: red;
+        opacity: 1;
+    }
+}
+
+
+/* PER SMARTPHONE E ANCHE IPOD-PRO
+ */
+@media (min-width: 576px) and (max-width: 1024px) {
+    body {
+        background-image: url('https://c0.wallpaperflare.com/preview/993/558/358/screen-netflix-film-night-movie-night.jpg');
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+        margin: 0;
+        overflow: hidden; 
+    }
+
+    .immagine {
+        position: relative;
+    }
+
+    .immagine img {
+        width: 150px;
+        position: absolute;
+        top: 20%;
+        left: 50%;
+        transform: translateX(-50%);
+        z-index: 1;
+    }
+
+    .popcorn-container {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vh;
+        pointer-events: none;
+    }
+
+    .popcorn {
+        position: absolute;
+        top: -50px;
+        left: 0;
+        animation: fall infinite;
+    }
+
+    .popcorn img {
+        width: 30px;
+        height: auto;
+    }
+
+    @keyframes fall {
+        0% {
+            transform: translateY(0);
+        }
+        100% {
+            transform: translateY(110vh);
+        }
+    }
+
+    .popcorn i {
+        font-size: 2rem;
+        color: #f8c471;
+    }
+
+    .form {
+        background-color: black !important;
+    }
+
+    .Login {
+        color: white;
+        border-color: white;
+        border-radius: 20px;
+        background-color: red;
+        transform: 0.2s ease;
+        opacity: 0.8;
+    }
+
+    .Login:hover {
+        color: white;
+        border-color: white;
+        border-radius: 20px;
+        background-color: red;
+        opacity: 1;
+    }
+}
+
